@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="modalBackground" id="show">
+      <div class="infoWindow" id="infoWindow"><span class="btnClose" onclick="closeInfo()">✖</span></div>
+    </div>
+    <main>
+    <header>
+        <img src="source\Logo.png" alt="Logo">
+        <p class="slogan">Откройте удивительный мир вкусов и ароматов в ресторане азиатской кухни, где каждое блюдо - это путешествие на восток!</p>
+        <div class="decor"></div>
+    </header>
+    
+       <div class="nameDish font">Салаты и закуски</div>
+       <div class="container" id="container"></div>
+
+       <hr class="line">
+
+      <div class="container">
+        <div>
+          <div id="soup"><p class="font indent">Супы</p></div>
+          <div id="dessert" class="dessert"><p class="nameDish font">Десерты</p></div>
+        </div>
+       <div>
+        <div id="ramen"><p class="font indent">Рамен</p></div>
+        <div id="sashimi"><span><p class="font indent">Сашими</p><hr class="line positionLine"></span></div>
+        <div id="sushi"><span><p class="font indent">Суши</p><hr class="line positionLine"></span></div>
+       </div>
+       <div class="addres">Санкт-Петербург, ул. Гороховая 9 <br> При нажатии на позицию откроется окно с подробной информацией о блюде</div>
+      </div>
+    </main>
+
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

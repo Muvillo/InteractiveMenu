@@ -1,0 +1,24 @@
+@media (max-width: 1024px){
+    .font{
+        font-size: 32px;
+    }
+
+    .stylediv{
+        font-size: 22px;
+        column-gap: 6%;
+    }
+
+    .decor:before{
+        position: absolute;
+        top: -10%;
+        right: -19.44%;    
+    }
+}
+
+@media (max-width: 768px){
+    .decor:before{
+        position: absolute;
+        top: -10%;
+        right: 0%;    
+    }
+}
